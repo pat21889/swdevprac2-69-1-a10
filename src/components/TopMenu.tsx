@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/authOptions";
+import { authOptions } from "@/app/api/auth/[...nextauth]/authOptions";
 import TopMenuItem from "./TopMenuItem";
 
 export default async function TopMenu() {

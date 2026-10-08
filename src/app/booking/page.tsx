@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/authOptions";
+import { authOptions } from "@/app/api/auth/[...nextauth]/authOptions";
 import getUserProfile from "@/libs/getUserProfile";
 import DateReserve from "@/components/DateReserve";
 
